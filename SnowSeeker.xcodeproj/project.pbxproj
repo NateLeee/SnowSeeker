@@ -14,6 +14,7 @@
 		FAA867D524FE9306005E7551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA867D424FE9306005E7551 /* Assets.xcassets */; };
 		FAA867D824FE9306005E7551 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA867D724FE9306005E7551 /* Preview Assets.xcassets */; };
 		FAA867DB24FE9306005E7551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA867D924FE9306005E7551 /* LaunchScreen.storyboard */; };
+		FABC52A124FF61B10034B070 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = FABC52A024FF61B10034B070 /* resorts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FAA867D724FE9306005E7551 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA867DA24FE9306005E7551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA867DC24FE9306005E7551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABC52A024FF61B10034B070 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				FAA867CB24FE9301005E7551 /* AppDelegate.swift */,
 				FAA867CD24FE9301005E7551 /* SceneDelegate.swift */,
 				FAA867D224FE9301005E7551 /* ContentView.swift */,
+				FABC52A024FF61B10034B070 /* resorts.json */,
 				FAA867D424FE9306005E7551 /* Assets.xcassets */,
 				FAA867D924FE9306005E7551 /* LaunchScreen.storyboard */,
 				FAA867DC24FE9306005E7551 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				FAA867DB24FE9306005E7551 /* LaunchScreen.storyboard in Resources */,
 				FAA867D824FE9306005E7551 /* Preview Assets.xcassets in Resources */,
+				FABC52A124FF61B10034B070 /* resorts.json in Resources */,
 				FAA867D524FE9306005E7551 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
