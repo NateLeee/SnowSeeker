@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA902EA324FF63BF00BDC1C9 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA902EA224FF63BF00BDC1C9 /* Bundle-Decodable.swift */; };
 		FAA867CC24FE9301005E7551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA867CB24FE9301005E7551 /* AppDelegate.swift */; };
 		FAA867CE24FE9301005E7551 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA867CD24FE9301005E7551 /* SceneDelegate.swift */; };
 		FAA867D124FE9301005E7551 /* SnowSeeker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA867CF24FE9301005E7551 /* SnowSeeker.xcdatamodeld */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA902EA224FF63BF00BDC1C9 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		FAA867C824FE9301005E7551 /* SnowSeeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowSeeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA867CB24FE9301005E7551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA867CD24FE9301005E7551 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				FAA867CF24FE9301005E7551 /* SnowSeeker.xcdatamodeld */,
 				FABC52A024FF61B10034B070 /* resorts.json */,
 				FABC52A224FF623F0034B070 /* Resort.swift */,
+				FA902EA224FF63BF00BDC1C9 /* Bundle-Decodable.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				FAA867D124FE9301005E7551 /* SnowSeeker.xcdatamodeld in Sources */,
 				FAA867D324FE9301005E7551 /* ContentView.swift in Sources */,
 				FAA867CE24FE9301005E7551 /* SceneDelegate.swift in Sources */,
+				FA902EA324FF63BF00BDC1C9 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
