@@ -46,4 +46,7 @@ struct Resort: Codable, Identifiable {
     let facilities: [String]
     
 //    static let example = Resort(id: <#T##String#>, name: <#T##String#>, country: <#T##String#>, description: <#T##String#>, imageCredit: <#T##String#>, price: <#T##Int#>, size: <#T##Int#>, snowDepth: <#T##Int#>, elevation: <#T##Int#>, runs: <#T##Int#>, facilities: <#T##[String]#>)
+    
+    static let allResorts: [Resort] = Bundle.main.decode("resorts.json")
+    static let example = allResorts[0]
 }
