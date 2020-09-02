@@ -8,21 +8,34 @@
 
 import SwiftUI
 
-struct User: Identifiable {
-    var id = "Taylor Swift"
+struct UserView: View {
+    var body: some View {
+        Group {
+            Text("Name: Paul")
+            Text("Country: England")
+            Text("Pets: Luna, Arya, and Toby")
+        }
+    }
 }
 
 struct ContentView: View {
-    
-    @State private var selectedUser: User? = nil
+    // @Environment()
+    @State private var layoutVertically = false
     
     var body: some View {
-        Text("Hello, World!")
-            .onTapGesture {
-                self.selectedUser = User()
+        Group {
+            if layoutVertically {
+                VStack {
+                    UserView()
+                }
+            } else {
+                HStack {
+                    UserView()
+                }
+            }
         }
-        .alert(item: $selectedUser) { user in
-            Alert(title: Text(user.id))
+        .onTapGesture {
+            self.layoutVertically.toggle()
         }
     }
 }
